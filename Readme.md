@@ -32,9 +32,9 @@
 <h3 align="center">Notas sobre C#</h3>
 
   <p align="center">
-    <a href="https://github.com/heartoneto/TeachingCsharp/issues">Reportar bugs</a>
+    <a href="https://github.com/heartoneto/LearningCsharp/issues">Reportar bugs</a>
     ·
-    <a href="https://github.com/heartoneto/TeachingCsharp/issues">Sugerir mejoras</a>
+    <a href="https://github.com/heartoneto/LearningCsharp/issues">Sugerir mejoras</a>
   </p>
 </div>
 
@@ -49,7 +49,7 @@
       </ul>
     </li>
     <li>
-      <a href="#Como-comenzar">Cómo comenzar</a>
+      <a href="#como-comenzar">Cómo comenzar</a>
     </li>
     <li><a href="#ejecutando-los-ejemplos">Ejecutando los ejemplos</a></li>
     <li><a href="#como-contribuir">Cómo contribuir</a></li>
@@ -61,15 +61,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre este proyecto
-Este proyecto no pretende ser **él** curso de C#, todo lo contrario, sólo se tocan conceptos específicos sobre programación orientada a objetos, es un trabajo en progreso y tal vez quede así indefinidamente, si te interesa puedes ayudarme agregando alguna sugerencia y/ó error por corregir [aquí](https://github.com/heartoneto/TeachingCsharp/issues).
+Este proyecto no pretende ser **él** curso de C#, todo lo contrario, sólo se tocan conceptos específicos sobre programación orientada a objetos, es un trabajo en progreso y tal vez quede así indefinidamente, si te interesa puedes ayudarme agregando alguna sugerencia y/ó error por corregir [aquí][issues-url]
 
 
 <!-- BUILT WITH -->
 ### Herramientas utilizadas
 
-* [Git](https://git-scm.com/)
-* [Visual Studio Code](https://https://code.visualstudio.com/)
-* [.NET core](https://dotnet.microsoft.com/es-es/)
+* [Git][git-url]
+* [Visual Studio Code][vs-code-url]
+* [.NET core][net-core-url]
 
 <p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
@@ -87,19 +87,19 @@ Este proyecto no pretende ser **él** curso de C#, todo lo contrario, sólo se t
     ```
 
     Si ves algún mensaje de error significa que **no** tienes git instalado, puedes instalarlo siguiendo 
-    <a href="https://github.com/heartoneto/TeachingCsharp/issues">estas</a> instrucciones 
+    [estas][git-install-url] instrucciones 
     
 * Navega hasta la la carpeta donde guardas tus proyectos y ejecuta el comando:
     ```
-    git clone --recursive https://github.com/heartoneto/TeachingCsharp
+    git clone https://github.com/heartoneto/LearningCsharp.git
     ```
     Listo, ya tienes una copia de **todos** los archivos del proyecto
-* Asegúrate de tener el framework .net instalado, puedes obtenerlo desde [su web](https://dotnet.microsoft.com/es-es/)
+* Asegúrate de tener el framework .net instalado, puedes obtenerlo desde [su web][net-core-url]
 
 <!-- USAGE EXAMPLES -->
 ## Ejecutando los ejemplos
 
-Situados en la carpeta donde se clonó el repositorio (*TeachingCsharp*) ejecutamos:
+Situados en la carpeta donde se clonó el repositorio (*LearningCsharp*) ejecutamos:
 ```
 dotnet run --project NombreDelProyecto
 ```
@@ -133,20 +133,26 @@ Si quieres agregar ejemplos puedes crear un fork y hacer un pull request con la 
 
 Frank Avilés Sarmiento - heartoneto2012@gmail.com
 
-Url del proyecto: [https://github.com/heartoneto/TeachingCsharp](https://github.com/heartoneto/TeachingCsharp)
+Url del proyecto: [https://github.com/heartoneto/LearningCsharp](https://github.com/heartoneto/LearningCsharp)
 
 <p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/heartoneto/TeachingCsharp.svg?style=for-the-badge
-[contributors-url]: https://github.com/heartoneto/TeachingCsharp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/heartoneto/TeachingCsharp.svg?style=for-the-badge
-[forks-url]: https://github.com/heartoneto/TeachingCsharp/network/members
-[stars-shield]: https://img.shields.io/github/stars/heartoneto/TeachingCsharp.svg?style=for-the-badge
-[stars-url]: https://github.com/heartoneto/TeachingCsharp/stargazers
-[issues-shield]: https://img.shields.io/github/issues/heartoneto/TeachingCsharp.svg?style=for-the-badge
-[issues-url]: https://github.com/heartoneto/TeachingCsharp/issues
-[license-shield]: https://img.shields.io/github/license/heartoneto/TeachingCsharp.svg?style=for-the-badge
-[license-url]: https://github.com/license/heartoneto/TeachingCsharp
+[contributors-shield]: https://img.shields.io/github/contributors/heartoneto/LearningCsharp.svg?style=for-the-badge
+[contributors-url]: https://github.com/heartoneto/LearningCsharp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/heartoneto/LearningCsharp.svg?style=for-the-badge
+[forks-url]: https://github.com/heartoneto/LearningCsharp/network/members
+[stars-shield]: https://img.shields.io/github/stars/heartoneto/LearningCsharp.svg?style=for-the-badge
+[stars-url]: https://github.com/heartoneto/LearningCsharp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/heartoneto/LearningCsharp.svg?style=for-the-badge
+[issues-url]: https://github.com/heartoneto/LearningCsharp/issues
+[license-shield]: https://img.shields.io/github/license/heartoneto/LearningCsharp.svg?style=for-the-badge
+[license-url]: https://github.com/license/heartoneto/LearningCsharp
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+
+[git-url]: https://git-scm.com
+[git-install-url]: https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
+[vs-code-url]: https://code.visualstudio.com
+[net-core-url]: https://dotnet.microsoft.com/es-es
