@@ -1,7 +1,6 @@
 ﻿
-namespace Clases
+namespace Interfaces
 {
-
     class Program
     {
         // Este método devuelve una colección de motores
@@ -21,7 +20,7 @@ namespace Clases
         {
             var brands = new string[] {
                 "Ariete",
-                 "Rolls Royce",
+                "Rolls Royce",
             };
 
             return brands;
@@ -42,7 +41,7 @@ namespace Clases
             foreach (var item in pairs)
             {
                 // Creamos una lavadora usando el motor (que será el primer elemento del par)
-                // y la marca (que será el primer elemento del par)
+                // y la marca (que será el segundo elemento del par)
                 var wm = new WashingMachine(item.First, item.Second);
 
                 // Encendemos esta lavadora
