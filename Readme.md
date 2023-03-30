@@ -149,8 +149,6 @@ Url del proyecto: [https://github.com/heartoneto/LearningCsharp](https://github.
 [issues-url]: https://github.com/heartoneto/LearningCsharp/issues
 [license-shield]: https://img.shields.io/github/license/heartoneto/LearningCsharp.svg?style=for-the-badge
 [license-url]: https://github.com/license/heartoneto/LearningCsharp
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
 
 [git-url]: https://git-scm.com
 [git-install-url]: https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
